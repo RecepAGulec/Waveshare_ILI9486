@@ -58,16 +58,16 @@ namespace
 		digitalWrite(pin, val ? HIGH : LOW);
 	}
 
-	constexpr unsigned int LCD_CS = 5;  // 10; //  LCD Chip Select
-	constexpr unsigned int LCD_BL = 13; // 9;  //  LCD Backlight
-	constexpr unsigned int LCD_RST = 12; // 8;  //  LCD Reset
-	constexpr unsigned int LCD_DC = 14; // 7;  //  LCD Data/Control
+	constexpr unsigned int LCD_CS = 32;  // 10; //  LCD Chip Select
+	constexpr unsigned int LCD_BL = 17; // 9;  //  LCD Backlight
+	constexpr unsigned int LCD_RST = 14; // 8;  //  LCD Reset
+	constexpr unsigned int LCD_DC = 4; // 7;  //  LCD Data/Control
 
-	constexpr unsigned int TP_CS = 17;   // 4;
-	constexpr unsigned int TP_IRQ = 25;  // 3
-	constexpr unsigned int TP_BUSY = 27; // 6
+	constexpr unsigned int TP_CS = 13;   // 4;
+	constexpr unsigned int TP_IRQ = 16;  // 3
+	constexpr unsigned int TP_BUSY = 17; // 6
 
-	constexpr unsigned int SD_CS = 16;   // 5;
+	constexpr unsigned int SD_CS = 255;   // 5;
 
 #else
 
