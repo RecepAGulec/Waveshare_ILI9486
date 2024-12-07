@@ -38,8 +38,8 @@ namespace
 	//  the reboot process.  D1 is Serial TX, you probably want that for debugging.
 	//  So, you can't plug the shield into a D1 R1, you need to map the pins.
 	//
-	constexpr unsigned int LCD_CS = D10; //  LCD Chip Select
-	constexpr unsigned int LCD_BL = D8;  //  LCD Backlight
+	constexpr unsigned int LCD_CS = D8; //  LCD Chip Select
+	constexpr unsigned int LCD_BL = D10;  //  LCD Backlight
 	constexpr unsigned int LCD_RST = D4;  //  LCD Reset
 	constexpr unsigned int LCD_DC = D3;  //  LCD Data/Control
 
